@@ -1,5 +1,5 @@
 :root {
-    --brand-pink: #ff69b4; /* Replace this with your specific shade of pink */
+    --brand-pink: #ff69b4; 
   }
   
   body {
@@ -20,7 +20,7 @@
     max-width: 400px;
     width: 100%;
     text-align: center;
-    border-top: 5px solid var(--brand-pink); /* Add a border top with your brand color */
+    border-top: 5px solid var(--brand-pink); 
   }
   
   .profile-picture {
@@ -30,12 +30,12 @@
     object-fit: cover;
     margin: 0 auto 1rem auto;
     display: block;
-    border: 3px solid var(--brand-pink); /* Add a border to the profile picture */
+    border: 3px solid var(--brand-pink); 
   }
   
   h1 {
     margin: 0;
-    color: var(--brand-pink); /* Change the name color to your brand color */
+    color: var(--brand-pink); 
   }
   
   h2 {
@@ -65,7 +65,7 @@
   .social-links a {
     display: inline-block;
     margin: 0 0.5rem;
-    color: var(--brand-pink); /* Change social link color to your brand color */
+    color: var(--brand-pink); 
     text-decoration: none;
   }
   
@@ -74,7 +74,7 @@
   }
   
   #currentTime {
-    color: var(--brand-pink); /* Change the UTC time color to your brand color */
+    color: var(--brand-pink); 
     font-weight: bold;
   }
   
