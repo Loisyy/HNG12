@@ -1,4 +1,8 @@
-body {
+:root {
+    --brand-pink: #ff69b4; /* Replace this with your specific shade of pink */
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -16,6 +20,7 @@ body {
     max-width: 400px;
     width: 100%;
     text-align: center;
+    border-top: 5px solid var(--brand-pink); /* Add a border top with your brand color */
   }
   
   .profile-picture {
@@ -25,11 +30,12 @@ body {
     object-fit: cover;
     margin: 0 auto 1rem auto;
     display: block;
+    border: 3px solid var(--brand-pink); /* Add a border to the profile picture */
   }
   
   h1 {
     margin: 0;
-    color: #333;
+    color: var(--brand-pink); /* Change the name color to your brand color */
   }
   
   h2 {
@@ -59,12 +65,17 @@ body {
   .social-links a {
     display: inline-block;
     margin: 0 0.5rem;
-    color: #007bff;
+    color: var(--brand-pink); /* Change social link color to your brand color */
     text-decoration: none;
   }
   
   .social-links a:hover {
     text-decoration: underline;
+  }
+  
+  #currentTime {
+    color: var(--brand-pink); /* Change the UTC time color to your brand color */
+    font-weight: bold;
   }
   
   @media (max-width: 480px) {
