@@ -1,0 +1,79 @@
+.ticket-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .step-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .step-header p {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+  }
+  
+  .ticket-info h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ticket-info p {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+  }
+  
+  .event-date {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--primary);
+  }
+  
+  .ticket-types {
+    display: grid;
+    gap: 1rem;
+    padding-top: 0.5rem;
+  }
+  
+  .ticket-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid var(--muted);
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  
+  .ticket-type.selected {
+    border-color: var(--primary);
+  }
+  
+  .ticket-type input {
+    display: none;
+  }
+  
+  .ticket-price {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .ticket-access {
+    font-size: 0.875rem;
+  }
+  
+  .ticket-quantity {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .submit-button {
+    width: 100%;
+  }
+  
+  
