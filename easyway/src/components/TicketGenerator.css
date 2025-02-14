@@ -1,0 +1,11 @@
+.ticket-generator {
+    max-width: 42rem;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .ticket-generator-content {
+    padding: 1.5rem;
+  }
+  
+  
