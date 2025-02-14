@@ -76,7 +76,7 @@ colorOptions.forEach(option => {
 
 newGameButton.addEventListener('click', () => {
     score = 0;
-    scoreElement.textContent = score; // Updat
+    scoreElement.textContent = score; localStorage
     setupNewGame();
 });
 
